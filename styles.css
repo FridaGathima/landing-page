@@ -1,6 +1,35 @@
-body nav li{
-display: inline;
+body nav ul li{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-left: 55px;
+    font-size: 20px;
+}
+body .logo{
+    font-size: 30px;
+    margin-top: 50px;
 }
 span{
     color: red;
+}
+body .introduction{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+    padding-top: 60px;
+}
+body div{
+    font-size: 30px;
+}
+body button{
+    background-color: rgb(217, 86, 86);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: rgb(217, 86, 86);
+    margin-right: 50px;
+}
+body img{
+    float: right;
 }
